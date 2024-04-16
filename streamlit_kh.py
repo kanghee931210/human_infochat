@@ -41,13 +41,18 @@ import os
 
 from langchain.callbacks import get_openai_callback
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'hist-qna-chatbot-b396ac49a73e.json'
+
 
 def main():
     st.set_page_config(
         page_title = 'Hist rag chat make_kh',
         page_icon = ':flag-kh:'
     )
+    with st.sidebar:
+        uploaded_files = st.file_uploader("CSV file을 업로드 하세요", type=['csv'], accept_multiple_files=False)
+        GCP_files = st.file_uploader("Key file을 업로드 하세요", type=['json'], accept_multiple_files=False)
+        process = st.button("실행")
+
     st.title(":blue[Hist] _Chat_ :robot_face:")
 
     if "conversation" not in st.session_state:
@@ -58,12 +63,13 @@ def main():
     #     st.session_state.checker = None
     # if 'emb' not in st.session_state:
     #     st.session_state.emb = None
-    with st.sidebar:
-        process = st.button("실행")
-
     # start
     if process:
-        files_text = get_text()
+        df = pd.read_csv(uploaded_files, index_col=0)
+        with open('GCP.json', mode='wb') as w:
+            w.write(GCP_files.getvalue())
+        os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'GCP.json'
+        files_text = get_text(df)
         vetorestore = get_vectorstore(files_text)
         st.session_state.conversation = conversation_chat(vetorestore)
 
@@ -104,8 +110,8 @@ def main():
                     # st.markdown(source_documents[2].metadata['source'], help=source_documents[2].page_content)
         # st.session_state.messages.append({'role' : "assistant", 'content' : result})
 
-def get_text():
-    df = pd.read_csv('result2.csv', index_col=0)
+def get_text(df):
+    # df = pd.read_csv('result2.csv', index_col=0)
     text = []
     for i in range(len(df)):
         New_data = zip(df.columns, df.iloc[i])
