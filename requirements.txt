@@ -1,0 +1,6 @@
+langchain_community
+langchain
+google-cloud-aiplatform
+pandas
+faiss-cpu
+loguru

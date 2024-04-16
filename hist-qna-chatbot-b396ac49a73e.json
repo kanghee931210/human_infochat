@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hist-qna-chatbot",
+  "private_key_id": "b396ac49a73eaa3369581dab1e301680897b5293",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDspo11KeE4q6HM\nPGXxKiaSCSFq4BrpSF7GvbG3j0Dv9BqiVn6RPMP3KHSMs7dswubgt+kmKvWybWJ7\n9F6Z4nQqI0yN/C618LwdqE0f/P8PQnvWHM+CRH2goo5jyGTPl74kSh29R/XlzWH5\nXfx92rH62hOw9AV/nwkJf02OUJ9rDt13mRmqEZKRbkLX6zgohldWuGzhXRGII3iK\nxEd2FP+Y/GrRPCCAz8WtkI2dLjivsUxVtiGAgtVFdwMiqqPGcSSgBni6DGovwHqx\nuzSectRAPXpkH1D5eur5F7P5654AmHdBqM6tSTSU3QTph+lFK9giUu142z8gqum2\nmNvMT3NfAgMBAAECggEAQ7ZkQ2H4T37MjOO7R4YIA0EZjrsQ+C7872DXuO4EZqQx\n+sFE9cmtSMsKjjfeBADAjwwQahtgse0agN0rNFzXYDc5cGb39pcrPFErwDtjv7oG\nNP2JYny2dYANvf9Y2Q1SGpAack5kzZw2rGN4G4q34k8D013/NMUMkOscBdyLwNWz\nJUjg6ttyPjcOW6EPAq280HsZWKCu8UJoElsaTZQ8USSsWVP8UEPlqWxO/HMeqrsS\nXq9Q6jM/HuOC1atD0LuwCjT8NHJ3iaUfK5J1Xs8lIHUpOteQa0vOT9EkyKG2aAXV\nqiTYLoBHVKOoPTsbeqq/afgQu/S7jnyb/IOGz/bQAQKBgQD7mAOWKDpvApMoY/CH\neqWiJusIhdcptMhuTOMPzmpEHQkPCykySLleZzRQSZZty9OlVbIdjz/qDbLJ7RG1\nTcmLcr12ooG9Zq+nPUfaZUhH7JqHYXO8uNumt1HCwabnchHTNjbhckkn63qw30fG\ny8/L3u+gz8StJjaLxSjabnzs4QKBgQDwy4rxw2tGKBEaMq04fd4X8QE+hKtfR8Kq\nuQfs1Va4WkyDHlCrUkvWfgh3TzISIKzDey/s4JqZtttagPtQYfHaoBxcZKpm8N2X\n0GMs/bEMHRtj8E+vTHgJVy/RaftVcN7rCOYZhq4O/0und9tRy2d8sLgfY/1ZJIAE\n6uQqKk4oPwKBgQDqg6fUL2tITn4dCAsMPaZmnyA1sYv9tCWfqst70Ev9cZMgEqcz\n19XxyQFaVT2C2ptNYbPFGeHZqSseTXxUI03aTfmMu61zfmP834I6cG4PnNvtlUjs\ngOM9Y2Myxo9s7UbwOXiubHkEXNrgQ0AEbbYjsopquz/4pcXyQrTx5ktMAQKBgExw\nEJdWdYM7zNIILDy2l/35n299JfmFCiKvwfhIcNLst0UYJnt8EF7yezWEilx+ytjz\nDe+gDPOmvFMqhpypuuCv2tDpk75Bz9YVbKYnkkBKLRu4eVMobyJn7uIHRqWEwv7R\nQFnyCubv29A5mAGLFDrczlYIo6/cilcFSZCpBU55AoGAGfGHu1VtirNdK0r4ptCF\npEERcRqUwHpk9uJnwuhLmWTcgwRC7FDI8KuKYl4KcheNU+MfxHmrg+PRQ35bwKt+\nroFDN52c3keTXNY983BYP/xBXA/jPEnk3EGnBkVZWpuuJtB85eLalAclMzp3BB+e\nwYoPS3vb9wvxYrIruozQ0uQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hist-qna-chatbot@appspot.gserviceaccount.com",
+  "client_id": "115367635933075021605",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hist-qna-chatbot%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
